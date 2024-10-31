@@ -1,0 +1,45 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color:#aed6f1;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  height: 100vh;
+}
+#menu-btn
+{
+    height: 30px;
+    width: 30px;
+}
+/* styles.css */
+.Barre-Latérale {
+  display: none; /* Masquer la barre latérale par défaut */
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: left;
+  position: absolute; /* Pour l'aligner correctement */
+  left: 0;
+  top: 50px;
+}
+
+.Barre-Latérale.visible {
+  display: block; /* Afficher la barre latérale quand elle a la classe 'visible' */
+}
+
+
+
+
+
+
+
+
+
+  
