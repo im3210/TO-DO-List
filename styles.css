@@ -5,8 +5,14 @@
 }
 body {
   
-  background-color:#aed6f1;
-  height: 100vh;
+    background-color:#aed6f1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    
 }
 #menu-btn
 {
@@ -26,7 +32,7 @@ body {
   position: absolute; /* Pour l'aligner correctement */
   left: 0;
   top: 50px;
-  list-style: -moz-bengali;  
+  list-style:none;  
 }
 .Barre-Latérale li {
     margin-bottom: 30px; /* Ajuste la valeur selon l'espacement souhaité */
@@ -40,9 +46,23 @@ body {
 .Entree h2{
     text-align: center;
 }
-
-
-
+.Entree p{
+    text-align: center;
+    color: #ffffdb;
+    
+}
+#to-do-app {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#new-todo{
+    padding: 20px;
+    width:300px;
+    height:50px;
+    border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
 
 
