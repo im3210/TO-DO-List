@@ -4,11 +4,8 @@
     box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
+  
   background-color:#aed6f1;
-  display: flex;
-  justify-content: left;
-  align-items: flex-start;
   height: 100vh;
 }
 #menu-btn
@@ -23,15 +20,25 @@ body {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 300px;
+  width: 250px;
+  height: 500px;  
   text-align: left;
   position: absolute; /* Pour l'aligner correctement */
   left: 0;
   top: 50px;
+  list-style: -moz-bengali;  
 }
-
+.Barre-Latérale li {
+    margin-bottom: 30px; /* Ajuste la valeur selon l'espacement souhaité */
+}
+.Barre-Latérale h1 {
+    margin-bottom: 20px; /* Ajuste la valeur selon l'espacement souhaité */
+}
 .Barre-Latérale.visible {
   display: block; /* Afficher la barre latérale quand elle a la classe 'visible' */
+}
+.Entree h2{
+    text-align: center;
 }
 
 
