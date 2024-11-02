@@ -64,17 +64,17 @@ body {
   border-radius: 4px;
 }
 .task-button {
-  display: flex;
+  display: block;
   background-color: #2d6ba2;
   color: white;
-  border: ;
+  border: none;
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 4px;
   margin: 5px 5px 0 0;
   cursor: pointer;
-} 
-      
+}
+
 
 
 
