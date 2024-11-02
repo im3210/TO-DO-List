@@ -55,6 +55,6 @@ newTodoInput.addEventListener('keypress', function(event) {
         newTodoInput.value = '';
     }
 });
-
 // Appelle la fonction pour afficher la date au chargement
 displayDate();
+
