@@ -43,6 +43,15 @@ newTodoInput.addEventListener('keypress', function(event) {
         const taskText = document.createElement('span');
         taskText.textContent = newTodoInput.value;
 
+        //ajouter l'option de barrer le tache si done
+         checkbox.addEventListener('change', () => {
+             if(checkbox.checked) {
+               taskText.classList.add('completed');  
+             } else{
+                taskText.classList.remove('completed');
+             }
+            
+        });
         
         // Ajoute la case à cocher, le texte et le bouton dans l'élément de tâche
         taskItem.appendChild(checkbox);
@@ -54,7 +63,8 @@ newTodoInput.addEventListener('keypress', function(event) {
         // Réinitialise le champ de saisie
         newTodoInput.value = '';
     }
-});
+});    
+
 // Appelle la fonction pour afficher la date au chargement
 displayDate();
 
